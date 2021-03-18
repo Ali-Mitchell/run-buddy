@@ -22,6 +22,8 @@ header {
     margin: 0;
     display:inline;
   }
+
+ 
   
   header a {
     text-decoration: none;
@@ -70,6 +72,10 @@ header {
   section {
     padding: 60px;
   }
+
+
+/*  hero Styling  */
+
 
   .hero {
     background-image: url("./images/hero-bg\ \(1\).jpg");
@@ -121,6 +127,10 @@ h3 {
   .hero-form label {
     margin: 0 5px;
   }
+
+
+/* intro styling */
+
 
   .intro {
       text-align: center;
@@ -266,3 +276,55 @@ h3 {
       }
       
       /* REACH OUT STYLES END */
+
+      /* privacy policy */
+
+      .secondary-content {
+        line-height: 1.7;
+        color:black;
+        margin: 0px 80px 15px 80px;
+        text-align: justify;
+        
+      }
+      
+      .secondary-content h3 {
+        padding: 10px 0px 10px 0px;
+        font-size: 25px;
+      }
+
+      .secondary-content p{
+        font-size: 16px;
+        margin: 20px 0px 20px 0px;
+      }
+
+    .page-title {
+      
+      font-style: italic;
+      font-size: 36px;
+      color: #fce138;
+      Margin: 0 auto;
+      width: 50%;
+      padding-bottom: 20px;
+      border-bottom: solid 3px #fce138;
+    
+      
+    }
+
+    .hero-privacy {
+      background-image: url("./images/hero-bg\ \(1\).jpg");
+    height: auto;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    }
+
+   .secondary-content ul {
+      margin: 15px 20px 15px 80px;
+
+     }
+
+     .secondary-content li {
+      color:#39a6b2
+     }
